@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url('pexels-cottonbro-4503273.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    color: #28a745;
+}
+
+.navbar-nav .nav-link {
+    color: #28a745; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9800;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.btn-success {
+    background-color: #00796b;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #004d40;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+#productos {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+#productos h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+#carrito {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+#carrito h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+#contacto {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+#contacto h2 {
+    color: #333;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #28a745; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838; 
+}
+
+.input-group .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
